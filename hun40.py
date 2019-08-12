@@ -1,0 +1,18 @@
+n=int(input())
+temp=0
+r=0
+temp1=0
+while(n>0):
+  rem=n%10
+  temp=temp*10+rem
+  r=r+rem
+  n=n//10 
+c=r   
+while(r>0):
+  w=r%10
+  temp1=temp1*10+w
+  r=r//10
+if(temp1==c):
+  print("YES")
+else:
+  print("NO")  
