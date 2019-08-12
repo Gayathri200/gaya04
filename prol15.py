@@ -1,0 +1,9 @@
+x=int(input())
+y=map(int,input().split())
+a=list(y)
+num=sorted(a)
+w=len(num)
+if(w==x):
+  while(w>0):
+    w=w-1
+    print(num[w])  
