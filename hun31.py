@@ -1,0 +1,14 @@
+num=int(input())
+x=map(int,input().split())
+a=list(x)
+b=len(a)
+r=1
+if(num==b):
+ while(b>0):
+   b=b-1
+   c=a[b]
+   r=r*c  
+if(r<0):
+  print(-r)
+else: 
+  print(r) 
